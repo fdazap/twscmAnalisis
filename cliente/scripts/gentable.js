@@ -199,6 +199,7 @@ function generateTwoRowTableFromJSON(data) {
         const td = document.createElement('td');
         td.textContent = data[fieldName].valor;
         valueRow.appendChild(td);
+
     }
 
     // Append the rows to the table
